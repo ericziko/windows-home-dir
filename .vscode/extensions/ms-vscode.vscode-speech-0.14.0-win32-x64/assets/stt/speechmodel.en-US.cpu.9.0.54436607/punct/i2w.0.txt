@@ -1,0 +1,8 @@
+<pad>
+<unk>
+<s>
+O
+<punc=.>
+<punc=,>
+<punc=?>
+<bot>

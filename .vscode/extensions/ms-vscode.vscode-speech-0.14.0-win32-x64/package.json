@@ -1,0 +1,104 @@
+{
+	"name": "vscode-speech",
+	"displayName": "VS Code Speech",
+	"version": "0.14.0",
+	"icon": "resources/logo.png",
+	"publisher": "ms-vscode",
+	"author": {
+		"name": "Microsoft Corporation"
+	},
+	"description": "A VS Code extension to bring speech-to-text and other voice capabilities to VS Code.",
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"engines": {
+		"vscode": "^1.90.0"
+	},
+	"contributes": {
+		"commands": [
+			{
+				"command": "vscode-speech.openSettings",
+				"title": "Extension Settings"
+			}
+		],
+		"menus": {
+			"extension/context": [
+				{
+					"command": "vscode-speech.openSettings",
+					"group": "2_configure",
+					"when": "extension==ms-vscode.vscode-speech"
+				}
+			]
+		},
+		"speechProviders": [
+			{
+				"name": "vscode-speech",
+				"description": "A VS Code extension to bring speech-to-text and other voice capabilities to VS Code."
+			}
+		]
+	},
+	"keywords": [
+		"Accessibility",
+		"a11y",
+		"STT",
+		"ai",
+		"co-pilot",
+		"Chat",
+		"Voice",
+		"Transcription",
+		"Microsoft",
+		"multi-root ready"
+	],
+	"categories": [
+		"Other"
+	],
+	"private": true,
+	"homepage": "https://github.com/microsoft/vscode/wiki/VS-Code-Speech",
+	"bugs": {
+		"url": "https://github.com/Microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Aworkbench-voice"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/microsoft/vscode.git"
+	},
+	"extensionKind": [
+		"ui"
+	],
+	"activationEvents": [
+		"onSpeech"
+	],
+	"enabledApiProposals": [
+		"speech"
+	],
+	"main": "./dist/extension.js",
+	"scripts": {
+		"vscode:prepublish": "npm run esbuild -- --minify",
+		"esbuild": "esbuild ./out/extension.js --bundle --outfile=dist/extension.js --sourcemap --external:vscode --external:@vscode/node-speech --external:path --format=cjs --platform=node",
+		"generate-key": "node build/generate-key.js",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js",
+		"launch": "tsc -p ./ && node build/generate-key.js && npm run esbuild"
+	},
+	"devDependencies": {
+		"@types/mocha": "^10.0.2",
+		"@types/node": "20.x",
+		"@types/vscode": "^1.85.0",
+		"@typescript-eslint/eslint-plugin": "^6.7.3",
+		"@typescript-eslint/parser": "^6.7.3",
+		"@vscode/test-electron": "^2.3.8",
+		"dotenv": "16.4.5",
+		"esbuild": "^0.25.2",
+		"eslint": "^8.50.0",
+		"glob": "^10.3.3",
+		"mocha": "^10.2.0",
+		"typescript": "^5.4.x"
+	},
+	"dependencies": {
+		"@vscode/node-speech": "^1.5.0"
+	},
+	"__metadata": {
+		"installedTimestamp": 1746782213842,
+		"targetPlatform": "win32-x64",
+		"size": 269644520
+	}
+}

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tokens>
+  <Category name="Voices" categoryBase="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech Server\v11.0">
+    <Token name="TTS_MS_Apollo_en-US_JessaNeural_11.0">
+      <String name="" value="Microsoft Server Speech Text to Speech Voice (en-US, AriaNeural)" />
+      <String name="409" value="Microsoft Server Speech Text to Speech Voice (en-US, AriaNeural)" />
+      <String name="CLSID" value="{a12bdfa1-c3a1-48ea-8e3f-27945e16cf7e}" />
+      <String name="LangDataPath" value="[INSTALLDIR]MSTTSLocEnUS.dat" />
+      <String name="VoicePath" value="[INSTALLDIR]1033" />
+      <Attribute name="Age" value="Adult" />
+      <Attribute name="AudioFormats" value="18" />
+      <Attribute name="Gender" value="Female" />
+      <Attribute name="Language" value="409" />
+      <Attribute name="Name" value="Microsoft Server Speech Text to Speech Voice (en-US, AriaNeural)" />
+      <Attribute name="Vendor" value="Microsoft" />
+      <Attribute name="Version" value="11.0" />
+      <Attribute name="VoiceType" value="Neural" />
+      <Attribute name="Project" value="/subscriptions/9b16b0df-65b6-46d3-b9c9-e4fbc86b1fa7/resourceGroups/vscode-speech/providers/Microsoft.CognitiveServices/accounts/vscode-speech" />
+      <Attribute name="LicenseVersion" value="1" />
+    </Token>
+  </Category>
+</Tokens>

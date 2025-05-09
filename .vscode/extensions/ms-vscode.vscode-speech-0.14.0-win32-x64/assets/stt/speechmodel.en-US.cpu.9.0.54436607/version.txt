@@ -1,0 +1,2 @@
+9.0.54436607
+/subscriptions/9b16b0df-65b6-46d3-b9c9-e4fbc86b1fa7/resourceGroups/vscode-speech/providers/Microsoft.CognitiveServices/accounts/vscode-speech

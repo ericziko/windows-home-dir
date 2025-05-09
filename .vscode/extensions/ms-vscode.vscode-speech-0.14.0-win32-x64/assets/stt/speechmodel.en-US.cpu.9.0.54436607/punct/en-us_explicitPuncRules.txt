@@ -1,0 +1,784 @@
+[Explicit]
+# tab separated values to be removed from recos (if Explicit punc is specified)
+.	,	;	?	:	)
+[Dedup]
+# tab separated values for duplicate checks
+.	,	;	?
+[Enders]
+# tab separated values of punctuation that ends sentences (and should have the next token capitalized)
+.	?	!	\n	\n\n
+[Capitalize]
+# does not need to be sorted
+Mr.
+Mrs.
+Ms.
+Dr.
+Mr
+Mrs
+Ms
+Dr
+I
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+[Rules]
+# tab separated values for explicit punct. First val is string to match; second string is replacement.   
+# newline and tab represented by \n and \t respectively.
+ampersand	 &
+and sign	 &
+apostrophe s	⨝'s
+apostrophe-s	⨝'s
+asterisk	*
+at mention	 @
+at sign	 @
+back quote	`
+back tick	`
+backquote	`
+backslash	\
+backtick	`
+begin single quote	'
+caret symbol	^
+caret	^
+carrot symbol	^
+close angle bracket	>
+close brace	}
+close bracket	]
+close curly brace	}
+close parentheses	⨝)
+close parenthesis	⨝)
+close quote	⨝”
+close quotes	⨝”
+close single quote	⨝'
+close square bracket	⨝]
+colon	⨝:
+comma	⨝,
+copyright mark	©
+copyright sign	©
+degree sign	⨝°
+degree symbol	⨝°
+division sign	 ÷
+dollar sign	$⨝
+dot dot dot	⨝...
+ellipses	⨝...
+ellipsis	⨝...
+em dash	⨝—⨝
+em-dash	⨝—⨝
+en dash	⨝-⨝
+en-dash	⨝-⨝
+end single quote	⨝'
+equal sign	 =
+euro sign	€
+exclamation mark	⨝!
+exclamation point	⨝!
+forward slash	/
+frowny face	:(
+full stop	⨝.
+fullstop	⨝.
+greater than sign	>
+heart emoji	 <3
+hyphen	-
+karat symbol	^
+left angle bracket	<⨝
+left brace	{⨝
+left bracket	[⨝
+left curly brace	{⨝
+left parentheses	(⨝
+left parenthesis	(⨝
+left square bracket	[⨝
+less than sign	<⨝
+m dash	⨝—⨝
+m-dash	⨝—⨝
+minus sign	-
+multiplication sign	×
+n dash	⨝-⨝
+n-dash	⨝-⨝
+new line	\n
+new paragraph	\n\n
+newline	\n
+next line	\n
+nextline	\n
+number sign	#
+open angle bracket	<⨝
+open brace	{⨝
+open bracket	[⨝
+open curly brace	{⨝
+open parentheses	(⨝
+open parenthesis	(⨝
+open quote	“⨝
+open quotes	“⨝
+open single quote	'⨝
+open square bracket	[⨝
+paragraph mark	¶
+paragraph sign	¶
+percent sign	⨝%
+period	⨝.
+pipe character	|
+plus or minus sign	 ±
+plus sign	 +
+pound sign	#
+pound sterling sign	£
+question mark	⨝?
+registered sign	®
+right angle bracket	⨝>
+right brace	⨝}
+right bracket	⨝]
+right curly brace	⨝}
+right parentheses	⨝)
+right parenthesis	⨝)
+right square bracket	⨝]
+sad face	:(
+section sign	§
+semi colon	⨝;
+semicolon	⨝;
+smiley face	:)
+tilda symbol	~
+tilde symbol	~
+tilde	~
+tildie symbol	~
+underscore	⨝_⨝
+vertical bar character	|
+vertical bar sign	|
+winky face	 ;)
+yen sign	¥⨝
+[Exceptions]
+# tab separated values for exceptions to punc match rules. First val is string to match; second string ignored.
+# You can use ... as a (single-token) wildcard match.  Wildcards aren't permitted at the start of an exception.
+- period	true
+10-year period	true
+13-year period	true
+15-day period	true
+15-minute period	true
+15-year period	true
+16-month period	true
+2-year period	true
+20-year period	true
+21-day period	true
+24-hour period	true
+39-32 period	true
+45-day period	true
+48-hour period	true
+60-day period	true
+a colon	true
+a comma	true
+a dollar sign	true
+a euro sign	true
+a exclamation point	true
+a full stop	true
+a period	true
+a question mark	true
+a semicolon	true
+an ampersand	true
+an exclamation mark	true
+an exclamation point	true
+and new line	true
+and newline	true
+and period	true
+another period ...	true
+another question mark	true
+answer period ...	true
+antebellum period ...	true
+any period ...	true
+april-june period	true
+april-may period	true
+april-through-june period	true
+april-to-june period	true
+at period ...	true
+b. period ...	true
+b. question mark	true
+b.-s. period ...	true
+back-to-school period ...	true
+bad period ...	true
+balloting period ...	true
+baroque period ...	true
+benefits period ...	true
+better period ...	true
+big exclamation point	true
+big question mark	true
+bigger question mark	true
+biggest question mark	true
+billing period ...	true
+bleak period ...	true
+bloody period ...	true
+bloody question mark	true
+blue period ...	true
+bonding period ...	true
+booking period ...	true
+books period ...	true
+breastfeed period ...	true
+breathing period ...	true
+brief period ...	true
+briefing period ...	true
+budget period ...	true
+budget-cutting period ...	true
+buildup period ...	true
+busy period ...	true
+buying period ...	true
+calm period ...	true
+campaign period ...	true
+care period ...	true
+cease-fire period ...	true
+centennial period ...	true
+challenging period ...	true
+change period ...	true
+christian period ...	true
+christmas period ...	true
+class period ...	true
+classical period ...	true
+cold period ...	true
+colon cancer	true
+colon cancers	true
+colon polyp	true
+colonial period ...	true
+comment period ...	true
+commitment period ...	true
+communist period ...	true
+competitive period ...	true
+confidence-building period ...	true
+confirmation period ...	true
+conflict period ...	true
+confusing period ...	true
+consignment period ...	true
+consolidation period ...	true
+control period ...	true
+cooling period ...	true
+cooling-off period ...	true
+correction period ...	true
+credit period ...	true
+cretaceous period ...	true
+critical period ...	true
+criticism-free period ...	true
+crucial period ...	true
+cubist period ...	true
+cultural period ...	true
+curfew period ...	true
+current period ...	true
+dangerous period ...	true
+dark period ...	true
+darkest period ...	true
+debt period ...	true
+decompression period ...	true
+decontamination period ...	true
+defendant period ...	true
+deflationary period ...	true
+deliberation period ...	true
+delicate period ...	true
+developmental period ...	true
+dirty period ...	true
+disappointing period ...	true
+discovery period ...	true
+discussion period ...	true
+discussions period ...	true
+distractions period ...	true
+dramatic period ...	true
+dry period ...	true
+earlier period ...	true
+earliest period ...	true
+early period ...	true
+earnings period ...	true
+earnings-reporting period ...	true
+economic period ...	true
+edo period ...	true
+education period ...	true
+eight-day period	true
+eight-hour period	true
+eight-month period	true
+eight-week period	true
+eight-year period	true
+eighteen-month period	true
+eighteen-year period	true
+eisenhower period ...	true
+eleven-month period	true
+eleven-week period	true
+eleven-year period	true
+emotional period ...	true
+energetic period ...	true
+enrollment period ...	true
+entire period ...	true
+epic period ...	true
+every comma	true
+every exclamation point	true
+every period ...	true
+evidence-gathering period ...	true
+evil period ...	true
+evolutionary period ...	true
+exciting period ...	true
+exclamation point after	true
+exclamation point on	true
+exclamation point or	true
+exclamation point to	true
+exile period ...	true
+experimental period ...	true
+experimentation period ...	true
+extension period ...	true
+extra period ...	true
+fasting period ...	true
+feudal period ...	true
+fifteen-day period	true
+fifteen-minute period	true
+fifteen-month period	true
+fifteen-year period	true
+fifth period ...	true
+fifties period	true
+fifty-year period	true
+first period	true
+five-day period	true
+five-hour period	true
+five-minute period	true
+five-month period	true
+five-to-ten-year period	true
+five-week period	true
+five-year period	true
+follow-up period ...	true
+forecast period ...	true
+forty-minute period	true
+forty-year period	true
+four-and-a-half-year period	true
+four-day period	true
+four-hour period	true
+four-month period ...	true
+four-months period ...	true
+four-week period	true
+four-year period	true
+fourteen-minute period ...	true
+fourteen-month period ...	true
+fourteen-year period ...	true
+fourth period	true
+furlough period ...	true
+further period ...	true
+game period ...	true
+gestation period ...	true
+getting period ...	true
+glacial period ...	true
+gloomy period ...	true
+golden period ...	true
+grace period ...	true
+grading period ...	true
+grieving period ...	true
+growth period ...	true
+had period ...	true
+half-hour period	true
+half-typed period	true
+half-year period	true
+hall period ...	true
+harding period ...	true
+have period ...	true
+healing period ...	true
+heavy period ...	true
+hectic period ...	true
+her next line	true
+her period ...	true
+his next line	true
+historic period ...	true
+historical period ...	true
+holding period ...	true
+holiday period ...	true
+hollywood period ...	true
+home-buying period ...	true
+honeymoon period ...	true
+hour period ...	true
+hour's period ...	true
+huge question mark	true
+hundred-day period ...	true
+hurricane period ...	true
+hysterical period ...	true
+implementation period ...	true
+important period ...	true
+incubation period ...	true
+indefinite period ...	true
+indeterminate period ...	true
+inflation period ...	true
+inflationary period ...	true
+inspection period ...	true
+insurance period ...	true
+intense period ...	true
+interesting period ...	true
+inverted comma	true
+investigative period ...	true
+investment period ...	true
+islamic period ...	true
+january-june period	true
+january-march period	true
+january-to-june period	true
+johnson period ...	true
+july-september period	true
+july-to-september period	true
+june period ...	true
+june-july period	true
+jurassic period ...	true
+jurisdiction period ...	true
+kennedy period ...	true
+key period ...	true
+khufu period ...	true
+kissinger-nixon period ...	true
+large question mark	true
+last period ...	true
+late period ...	true
+latency period ...	true
+later period ...	true
+latest period ...	true
+launch period ...	true
+limitation period ...	true
+limited period ...	true
+listening period ...	true
+lone question mark	true
+long period ...	true
+longer period ...	true
+longest period ...	true
+loss period ...	true
+lunch period ...	true
+major question mark	true
+mandela period ...	true
+manic period ...	true
+many period ...	true
+marriage period ...	true
+mccarthy period ...	true
+mccarthyite period ...	true
+mccarty period ...	true
+measurement period ...	true
+medieval period ...	true
+meiji period ...	true
+menstrual period	true
+messy period ...	true
+midday period ...	true
+middle period ...	true
+midlife period ...	true
+modern period ...	true
+month period ...	true
+mourning period ...	true
+my colon	true
+my next line	true
+my period ...	true
+napoleonic period ...	true
+nazi period ...	true
+neolithic period ...	true
+nesting period ...	true
+new line cinema	true
+newline cinema	true
+next line from	true
+next line in	true
+next line of	true
+next line to	true
+next period ...	true
+nomination period ...	true
+nonviolence period ...	true
+normal period ...	true
+nurturing period ...	true
+observation period ...	true
+october period	true
+october-december period	true
+old period ...	true
+one period ...	true
+one-day period	true
+one-hour period	true
+one-month period	true
+one-week period	true
+one-year period	true
+operational period ...	true
+orientation period ...	true
+other period ...	true
+our next line	true
+our period ...	true
+overnight period ...	true
+overtime period ...	true
+painful period ...	true
+past period ...	true
+pay period ...	true
+peak period ...	true
+penalty period ...	true
+peri-menopause period ...	true
+period end	true
+period ended	true
+period ending	true
+period ends	true
+period film	true
+period films	true
+period from	true
+period instruments	true
+period last	true
+period lasted	true
+period lasts	true
+period leading	true
+period movie	true
+period music	true
+period now	true
+period of	true
+period piece	true
+period pieces	true
+period prior	true
+period romance	true
+period since	true
+period thing	true
+period thirteen	true
+period time	true
+period to	true
+period twenty	true
+period two	true
+period until	true
+period up	true
+permanent period ...	true
+permean period ...	true
+phase-in period ...	true
+planning period ...	true
+player period ...	true
+positive period ...	true
+post-cold-war period	true
+post-contract period	true
+post-deng period	true
+post-election period	true
+post-injury period	true
+post-menopausal period	true
+post-mortem period	true
+post-operative period	true
+post-soviet period	true
+post-strike period	true
+post-war period	true
+postpartum period	true
+postwar period	true
+practice period ...	true
+pre-election period	true
+pre-genocide period	true
+pre-vote period	true
+pre-war period	true
+preceding period ...	true
+premodern period ...	true
+prenatal period ...	true
+present period ...	true
+presidential period ...	true
+previous period ...	true
+primary period ...	true
+prior-year period	true
+prison period ...	true
+probation period ...	true
+probationary period ...	true
+problem period ...	true
+processing period ...	true
+profitability period ...	true
+prolonged period ...	true
+propaganda period ...	true
+psychedelic period ...	true
+publication period ...	true
+punishment period ...	true
+qualifying period ...	true
+quarantine period ...	true
+quarter period ...	true
+question-and-answer period	true
+questioning period ...	true
+questions period ...	true
+quiet period ...	true
+ramadan period ...	true
+reagan period ...	true
+reauthorization period ...	true
+recent period ...	true
+recessionary period ...	true
+reconciliation period ...	true
+reconstruction period ...	true
+recovery period ...	true
+redistricting period ...	true
+regency period ...	true
+rehabilitation period ...	true
+rehearsal period ...	true
+relief period ...	true
+rem period ...	true
+repair period ...	true
+repayment period ...	true
+replacement period ...	true
+reporting period ...	true
+republican period ...	true
+research period ...	true
+respite period ...	true
+rest period ...	true
+restriction period ...	true
+review period ...	true
+revocation period ...	true
+revolutionary period ...	true
+roman period ...	true
+romantic period ...	true
+room period ...	true
+rough period ...	true
+ruptured colon	true
+scary period ...	true
+scoreless period ...	true
+second period ...	true
+september period ...	true
+september-november period	true
+seven-day period	true
+seven-hour period	true
+seven-week period	true
+seven-year period	true
+seventeen-year period	true
+seventh period ...	true
+seventy-day period	true
+shameful period ...	true
+shelter period ...	true
+shopping period ...	true
+short period ...	true
+short-lived period	true
+short-term period	true
+shorter period ...	true
+shutdown period ...	true
+signing period ...	true
+six-day period	true
+six-hour period	true
+six-month period	true
+six-week period	true
+six-year period	true
+sixteen-year period	true
+sixth period ...	true
+sixty-day period	true
+skipped period ...	true
+sleep period ...	true
+soviet period ...	true
+spastic colon	true
+specific period ...	true
+spiritual period ...	true
+sports period ...	true
+stabilization period ...	true
+stable period ...	true
+stalin period ...	true
+stalinist period ...	true
+start-up period ...	true
+statutory period ...	true
+stressful period ...	true
+stricken period ...	true
+sunny period ...	true
+superpower period ...	true
+survey period ...	true
+sustained period ...	true
+talmudic period ...	true
+tax period ...	true
+taxes period ...	true
+tedious period ...	true
+ten-day period	true
+ten-month period	true
+ten-year period	true
+tense period ...	true
+tension-free period ...	true
+term period ...	true
+test period ...	true
+testimony period ...	true
+testing period ...	true
+the colon	true
+the comma	true
+the dollar sign	true
+the euro sign true
+the exclamation mark	true
+the exclamation point	true
+the full stop	true
+the next line	true
+the period	true
+the question mark	true
+the semicolon	true
+their next line	true
+their period	true
+therapy period ...	true
+thing period ...	true
+third period ...	true
+thirteen-year period	true
+thirty-day period	true
+thirty-minute period	true
+thirty-year period	true
+thousand period ...	true
+thousand-year period	true
+three period ...	true
+three-day period	true
+three-hour period	true
+three-month period	true
+three-week period	true
+three-year period	true
+time period ...	true
+times period ...	true
+tires period ...	true
+training period ...	true
+tranquil period ...	true
+transformation period ...	true
+transforming period ...	true
+transition period ...	true
+transitional period ...	true
+traumatic period ...	true
+travel period ...	true
+trial period ...	true
+tuesday period ...	true
+tumultuous period ...	true
+turbulent period ...	true
+turnaround period ...	true
+twelve period ...	true
+twelve-hour period	true
+twelve-month period	true
+twelve-week period	true
+twelve-year period	true
+twenty-hour period	true
+twenty-minute period	true
+twenty-month period	true
+twenty-year period	true
+two period ...	true
+two-day period	true
+two-hour period	true
+two-month period	true
+two-week period	true
+two-year period	true
+twos period ...	true
+u.-s. period ...	true
+uncertain period ...	true
+uncomfortable period ...	true
+unfortunate period ...	true
+university's period ...	true
+unknown period ...	true
+unprecedented period ...	true
+unpredictable period ...	true
+unstable period ...	true
+unusual period ...	true
+vacation period ...	true
+vesting period ...	true
+vietnam period ...	true
+viking period	true
+virginia period ...	true
+visitation period ...	true
+volatile period ...	true
+voting period ...	true
+wait-and-see period ...	true
+waiting period ...	true
+waiting-day period ...	true
+war period ...	true
+warfare period ...	true
+warm period ...	true
+warm-up period ...	true
+warning period ...	true
+watergate period ...	true
+weak period ...	true
+wet period ...	true
+wettest period ...	true
+what period ...	true
+whole period ...	true
+winter period ...	true
+with new line	true
+with newline	true
+with period ...	true
+withdrawal period ...	true
+work period ...	true
+working period ...	true
+year-ago period	true
+year-and-a-half period	true
+year-earlier period	true
+year-long period	true
+years period ...	true
+years' period ...	true
+your colon	true
+your next line	true
+your period	true
+your question mark	true
