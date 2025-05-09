@@ -12,4 +12,4 @@ if (-not (Test-Path -Path $targetDir)) {
     New-Item -ItemType Directory -Path $targetDir
 }
 
-Robocopy.exe $sourceDir $targetDir /E /L
+Robocopy.exe $sourceDir $targetDir /E 
