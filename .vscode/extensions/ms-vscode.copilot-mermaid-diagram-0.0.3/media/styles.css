@@ -1,0 +1,35 @@
+.diagramContainer .toolbar {
+    position: fixed;
+    z-index: 3;
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.toolbar .button {
+    margin: 2px;
+    padding-bottom: 2px;
+}
+
+.toolbar button .icon {
+    width: 16px;
+    height: 16px;
+}
+
+#mermaid-diagram {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    padding-top: 18px;
+}
+  
+#drag-handle {
+    cursor: move;
+    z-index: 2;
+}
+
+.clickable .nodeLabel {
+    text-decoration: underline;
+}
