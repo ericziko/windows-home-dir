@@ -1,0 +1,75 @@
+/*!
+ * 1DS JS SDK Core, 3.2.3
+ * Copyright (c) Microsoft and contributors. All rights reserved.
+ * (Microsoft Internal Only)
+ */
+
+/*!
+ * 1DS JS SDK POST plugin, 3.2.3
+ * Copyright (c) Microsoft and contributors. All rights reserved.
+ * (Microsoft Internal Only)
+ */
+
+/*!
+ * Application Insights JavaScript SDK - Core, 2.8.4
+ * Copyright (c) Microsoft and contributors. All rights reserved.
+ */
+
+/*!
+ * Microsoft Application Insights JavaScript SDK - Shim functions, 2.0.1
+ * Copyright (c) Microsoft and contributors. All rights reserved.
+ */
+
+/*!
+ * Microsoft Dynamic Proto Utility, 1.1.6
+ * Copyright (c) Microsoft and contributors. All rights reserved.
+ */
+
+/*!
+ * Microsoft Dynamic Proto Utility, 1.1.7
+ * Copyright (c) Microsoft and contributors. All rights reserved.
+ */
+
+/*!
+ * Microsoft Dynamic Proto Utility, 1.1.9
+ * Copyright (c) Microsoft and contributors. All rights reserved.
+ */
+
+/*!
+ * fill-range <https://github.com/jonschlinkert/fill-range>
+ *
+ * Copyright (c) 2014-present, Jon Schlinkert.
+ * Licensed under the MIT License.
+ */
+
+/*!
+ * is-extglob <https://github.com/jonschlinkert/is-extglob>
+ *
+ * Copyright (c) 2014-2016, Jon Schlinkert.
+ * Licensed under the MIT License.
+ */
+
+/*!
+ * is-glob <https://github.com/jonschlinkert/is-glob>
+ *
+ * Copyright (c) 2014-2017, Jon Schlinkert.
+ * Released under the MIT License.
+ */
+
+/*!
+ * is-number <https://github.com/jonschlinkert/is-number>
+ *
+ * Copyright (c) 2014-present, Jon Schlinkert.
+ * Released under the MIT License.
+ */
+
+/*!
+ * to-regex-range <https://github.com/micromatch/to-regex-range>
+ *
+ * Copyright (c) 2015-present, Jon Schlinkert.
+ * Released under the MIT License.
+ */
+
+/*! queue-microtask. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/*! run-parallel. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
